@@ -48,7 +48,7 @@ def get_args():
 
 def pipeline(input_path,output_path):
     curr_dir = path.dirname(path.abspath(__file__))
-    #args = get_args()
+    args = get_args()
     args.pipeline_type='predict'
     args.language='mr'
     args.tag_type='pos'
